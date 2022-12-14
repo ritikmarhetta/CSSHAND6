@@ -1,0 +1,238 @@
+body
+{
+    background-image: url(./first.jpeg);
+    background-size: cover;
+}
+.top
+{
+    float: right;
+}
+.home
+{
+    position: relative;
+    right:355px;
+    top: 25px;
+    text-decoration-line: none;
+    color: aliceblue;
+
+}
+.region
+{
+position: relative;
+top: 25px;
+right: 221px;
+text-decoration-line: none;
+color: aliceblue;
+}
+.about
+{
+position: relative;
+top: 25px;
+right: 115px;
+text-decoration-line: none;
+color: aliceblue;
+}
+.logo
+{
+    position: relative;
+   left: 62px;
+  top: 27px;
+ background-color: none;
+ size: 2px;
+}
+.logo2
+{
+    position: relative;
+    left: 1159px;
+    bottom: 49px
+}
+h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.shara
+{
+    
+    position: absolute;
+    left: 70px;
+    top: 198px
+}
+.button
+{
+    border: 1px solid white;
+    border-radius: 26px;
+    width: 170px;
+    height: 35px;
+    background-color: aliceblue;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dessert
+{
+background-image: url(./second.jpeg);
+position: relative;
+    left: 55%;
+    bottom: 10px;
+}
+.ai
+{
+    background-image: url(./third.jpeg);
+    position: relative;
+    left: 77%;
+    bottom: 339px;
+}
+
+.giza
+{
+background-image: url(./forth.jpeg);
+position: relative;
+bottom: 319px;
+left: 55%;
+}
+.kalhari{
+    background-image: url(./fifth.jpeg);
+    position: relative;
+    bottom: 648px;
+    left: 77%;
+}
+
+.pic
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 311px;
+    width: 242px;
+    border-radius: 6%;
+}
+.pic:hover
+{
+    transform: translateY(-5px);
+}
+/*----tab----*/ 
+
+@media (width <=856px) 
+{
+
+    .top { float: right;
+        position: relative;
+        left: 44%;
+}
+.logo2 {
+    position: relative;
+    left: 120%;
+    bottom: 49px;
+}
+.pic{
+  background-size: cover;
+   width: 65%;
+    border-radius: 5%;
+    font-size: larger;
+}
+
+.kalhari {
+    background-image: url(./fifth.jpeg);
+    position: relative;
+    bottom: -450px;
+    left: 55%;
+}
+.giza {
+
+    background-image: url(./forth.jpeg);
+    position: relative;
+    bottom: -401px;
+    left: 55%;
+}
+    .ai {
+    
+        background-image: url(./third.jpeg);
+        position: relative;
+        left: 55%;
+        bottom: -360px;
+    }
+    .dessert {
+       
+        background-image: url(./second.jpeg);
+        position: relative;
+        left: 55%;
+        bottom: -320px;
+    }
+    .grid
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .para
+    {
+        font-size: larger;
+    }
+    .explore
+    {
+       width: 265px;
+       height: 35px;
+    }
+
+}
+/*mobile view*/
+@media  (width <=360px) {
+   .home
+   {
+    position: relative;
+    left: -6%;
+    top: 68px;
+
+   }
+   .region
+   {
+    position: relative;
+    left: -60px;
+    top: 96px;
+   }
+   .about
+   {
+    position: relative;
+    left: -127px;
+    top: 127px;
+   }
+   .logo {
+    position: relative;
+    left: 62px;
+    top: 64px;
+    width: 62px;
+}
+.logo2 {
+    position: relative;
+    left: 97%;
+    bottom: -67px;
+}
+.shara {
+    position: absolute;
+    left: 32px;
+    top: 145px;
+}
+.pic{
+width: 262px;
+}
+.dessert
+{
+position: relative;
+top: 456px;
+left: 91px;
+}
+.ai
+{
+position: relative;
+top: 480px;
+left: 91px;
+}
+.giza{
+position: relative;
+top: 507px;
+left: 90px;
+}
+.kalhari
+{
+position: relative;
+top: 535px;
+left: 92px;
+}
+}
